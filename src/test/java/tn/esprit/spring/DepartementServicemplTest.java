@@ -50,7 +50,7 @@ public class DepartementServicemplTest {
     	listeDep = ds.getAllDepartements();
     	 
     	listeDep.clear();
-    	System.out.println("//////////////////"+listeDep.size());
+    	System.out.println("////////"+listeDep.size());
     	assertEquals(4, listeDep.size());
     	
 	}
